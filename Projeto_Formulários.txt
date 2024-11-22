@@ -1,0 +1,30 @@
+Projeto: Formularios
+Nome do formulário: frmComandos.cs
+
+Label
+Name: lblDataMSK - Text: Data:
+MaskedTextBox - Name: mskData - Mask: ##/##/####
+
+Label
+Name: lblHora - Text: Hora:
+MaskedTextBox - Name: mskHora - Mask: ##:##
+
+Label
+Name: lblHoraPanel - Text: Hora:
+Panel: Name: pnlHora - BorderStyle: Fixed3D
+Backcolor: Branca
+Label -  Name: lblHoraTimer - Text: 00:00:00
+
+Label
+Name: lblDataDTP  - Text: Data:
+DateTimePicker - Name: dtpData - Format: Short
+
+Label
+Name: lblCalData	- Text: Calendário:
+MonthCalendar - Name: mthCalendario
+
+Timer - Name: tmrHora - Interval: 1000
+
+
+
+
